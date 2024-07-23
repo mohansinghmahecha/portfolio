@@ -57,6 +57,9 @@ background-image: url(/src/component/assert/pexel.jpg);
     cursor: pointer;
     
 }
+.overflow{
+    overflow: hidden;
+}
 @keyframes example {
     0%   {width: 0%;}
     25%   {width: 20%;}
@@ -64,4 +67,17 @@ background-image: url(/src/component/assert/pexel.jpg);
     100%   {width: 100%;}
    
   }
+  
+  @media (min-width: 30em) and (max-width: 50em) {
+   body{
+    color:red
+   }
+
+   .grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+  }
+  
+  
   

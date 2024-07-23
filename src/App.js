@@ -10,19 +10,19 @@ function App() {
     <div>
       <Menu />
       <section>
-        <Header id="home" />
+        <Header id="home" className="overflow"/>
       </section>
 
       <section id="about-section">
-        <AboutUs />
+        <AboutUs className="overflow"/>
       </section>
 
       <section id="portfolio-section">
-        <Portfolio />
+        <Portfolio className="overflow"/>
       </section>
 
-      <section id="contect">
-        <ContactUs />
+      <section id="contect" >
+        <ContactUs className="overflow"/>
       </section>
     </div>
   );
