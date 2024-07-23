@@ -1,11 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Menu from "./component/navbar/Menu";
+import Header from "./component/Header.js/Header";
+import AboutUs from "./component/AboutUs/AboutUs";
+import ContactUs from "./component/ContectUs";
+import Portfolio from "./component/portfolio/Portfolio";
 
 function App() {
   return (
-    <div className="">
-      <p>Testing website</p>
-      <p>Free to help u</p>
+    <div>
+      <Menu />
+      <section>
+        <Header id="home" />
+      </section>
+
+      <section id="about-section">
+        <AboutUs />
+      </section>
+
+      <section id="portfolio-section">
+        <Portfolio />
+      </section>
+
+      <section id="contect">
+        <ContactUs />
+      </section>
     </div>
   );
 }
