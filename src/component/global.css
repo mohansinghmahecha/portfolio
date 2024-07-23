@@ -11,11 +11,12 @@
     overflow: hidden;
     align-items: start ;
     padding-left: 1rem;
-   
-
-
-background-image: url(/src/component/assert/pexel.jpg);   
- object-fit: fill;
+    background-image: url(/src/component/assert/pexel.jpg);   
+     object-fit: cover;
+}
+.para{
+    font-size: 1.5rem;
+    padding: 10px;
 }
 .heading p{
     font-size: 4rem;
@@ -41,8 +42,8 @@ background-image: url(/src/component/assert/pexel.jpg);
     grid-template-columns: repeat(2,1fr);
 }
 .img-width{
-    width: auto;
-    height: 512px;
+    width: 600px;
+    height: 500px;
     animation: example;
     animation-duration: 2000ms;
     animation-delay: 500ms;
@@ -52,10 +53,16 @@ background-image: url(/src/component/assert/pexel.jpg);
     justify-content: center;
     align-items: center;
 }
+.bg-hover{
+    font-size: medium;
+    font-weight: 700;
+    text-shadow: 10px;
+    letter-spacing: 5px;
+    color: white;
+}
 .bg-hover:hover{
-    background-color: rgb(78, 186, 252);
-    cursor: pointer;
-    
+    background-color: rgb(179, 189, 195);
+    cursor: pointer; 
 }
 .overflow{
     overflow: hidden;
@@ -69,9 +76,7 @@ background-image: url(/src/component/assert/pexel.jpg);
   }
   
   @media (min-width: 30em) and (max-width: 50em) {
-   body{
-    color:red
-   }
+   
 
    .grid{
     display: grid;

@@ -7,13 +7,20 @@ export default function AboutUs() {
       <h1>About Us</h1>
       <p>Best Developer i am</p>
       <div className="grid center ml-2 trans">
-        <img src={imgLeft} alt="" className="img-width"/>
-        <p className="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum veniam ducimus, odit magnam qui voluptas, quisquam ipsam impedit quibusdam nam quos id at, suscipit officiis officia eius blanditiis numquam debitis!
-
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut rerum provident sit iure voluptas sed debitis voluptatem laudantium beatae a? Cumque voluptatibus ducimus quisquam ipsam veritatis dolorem quaerat odio natus.
-
-
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur deserunt necessitatibus iste. Ducimus, eveniet? Modi ullam debitis incidunt velit! Quaerat, qui laborum! Obcaecati praesentium culpa sunt nihil dolorum pariatur beatae?
+        <img src={imgLeft} alt="" className="img-width" />
+        <p className="para">
+          I'm currently a front-end development student at ss jain Jaipur,
+          honing my skills in crafting user-centric web experiences. My passion
+          for web development stems from the ability to bring ideas to life
+          through code and create interactive interfaces. Throughout my academic
+          journey, I've gained a strong foundation in HTML, CSS, and JavaScript,
+          along with frameworks like React . Being an eager learner, I actively
+          seek out opportunities to expand my knowledge base. I participate in
+          online courses and hackathons to stay updated on the latest trends and
+          technologies in the front-end development landscape. I'm a highly
+          motivated and results-oriented individual with a keen eye for detail
+          and a dedication to creating user-friendly and visually appealing web
+          applications.
         </p>
       </div>
     </div>

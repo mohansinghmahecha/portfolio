@@ -4,6 +4,7 @@ import Header from "./component/Header.js/Header";
 import AboutUs from "./component/AboutUs/AboutUs";
 import ContactUs from "./component/ContectUs";
 import Portfolio from "./component/portfolio/Portfolio";
+import Project from "./component/projects/Project";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
       <section id="portfolio-section">
         <Portfolio className="overflow"/>
       </section>
+
+      
+      <Project/>
+
 
       <section id="contect" >
         <ContactUs className="overflow"/>

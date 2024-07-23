@@ -3,19 +3,19 @@ import React from "react";
 export default function Portfolio() {
   return (
     <div
-      className="containerbox center bg-hover"
+      className="containerbox center bg-hover "
       id="portfolio-section"
-      style={{ display: "flex", flexDirection: "row" ,gap:"20px"  }}
+      style={{ display: "flex", flexDirection: "row", gap: "20px" }}
     >
       {/* START */}
-      <div
+      <div className="bg-dark text-white"
         style={{
           display: "flex",
           width: "170px",
           height: "170px",
           alignItems: "center",
           justifyContent: "center",
-          backgroundColor: "red",
+         
         }}
       >
         React
@@ -38,7 +38,7 @@ export default function Portfolio() {
       {/* END */}
 
       {/* START */}
-      <div
+      <div className="bg-info"
         style={{
           display: "flex",
           width: "170px",
@@ -67,8 +67,8 @@ export default function Portfolio() {
       </div>
       {/* END */}
 
-       {/* START */}
-       <div
+      {/* START */}
+      <div
         style={{
           display: "flex",
           width: "170px",
@@ -78,9 +78,70 @@ export default function Portfolio() {
           backgroundColor: "green",
         }}
       >
-        Node 
+        Node
       </div>
       {/* END */}
+
+       {/* START */}
+       <div className="bg-dark text-white"
+        style={{
+          display: "flex",
+          width: "170px",
+          height: "170px",
+          alignItems: "center",
+          justifyContent: "center",
+         
+        }}
+      >
+        FireBase
+      </div>
+      {/* END */}
+
+       {/* START */}
+       <div className="bg-danger text-white"
+        style={{
+          display: "flex",
+          width: "170px",
+          height: "170px",
+          alignItems: "center",
+          justifyContent: "center",
+         
+        }}
+      >
+        Git
+      </div>
+      {/* END */}
+       {/* START */}
+       <div className="bg-success text-white"
+        style={{
+          display: "flex",
+          width: "170px",
+          height: "170px",
+          alignItems: "center",
+          justifyContent: "center",
+         
+        }}
+      >
+        Js
+      </div>
+      {/* END */}
+
+       {/* START */}
+       <div className="bg-dark text-white"
+        style={{
+          display: "flex",
+          width: "170px",
+          height: "170px",
+          alignItems: "center",
+          justifyContent: "center",
+         
+        }}
+      >
+        Boostrap
+      </div>
+      {/* END */}
+
+      
     </div>
   );
 }
