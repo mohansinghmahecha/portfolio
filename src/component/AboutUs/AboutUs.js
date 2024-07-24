@@ -3,10 +3,10 @@ import imgLeft from "../assert/about-us-demo.jpg";
 
 export default function AboutUs() {
   return (
-    <div id="about-section " className="containerbox">
+    <div id="about-section " className="about containerbox">
       <h1>About Us</h1>
       <p>Best Developer i am</p>
-      <div className="grid center ml-2 trans">
+      <div className="grid center ">
         <img src={imgLeft} alt="" className="img-width" />
         <p className="para">
           I'm currently a front-end development student at ss jain Jaipur,

@@ -4,14 +4,16 @@
 }
 .img-bg{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
     align-items: start ;
     padding-left: 1rem;
-    background-image: url(/src/component/assert/pexel.jpg);   
+    background-image: url(/src/component/assert/pexel.jpg); 
+    background-size: cover;  
+    background-position: center;
      object-fit: cover;
 }
 .para{
@@ -19,7 +21,7 @@
     padding: 10px;
 }
 .heading p{
-    font-size: 4rem;
+    font-size: 3rem;
     color: aliceblue;
 }
 .heading .text{
@@ -49,6 +51,10 @@
     animation-delay: 500ms;
     animation-iteration-count: 1;
 }
+.hover-it{
+    cursor:  pointer;
+    color: gray;
+}
 .center{
     justify-content: center;
     align-items: center;
@@ -76,13 +82,31 @@
   }
   
   @media (min-width: 30em) and (max-width: 50em) {
-   
+    .para{
+        width: 450px;
+        overflow: hidden;
+      
+        text-wrap: wrap;
+        padding: 10px;
+        margin-left: 3PX;
+        font-size: 1.2rem;
+        padding: 0px;
+        margin: 0px;
+    }
+    .heading p{
+        font-size: 2rem;
+        color: aliceblue;
+    }
+    .heading .text{
+        color: red;
+    }
 
    .grid{
     display: grid;
     grid-template-columns: repeat(1,1fr);
 }
+
+
   }
   
-  
-  
+ 

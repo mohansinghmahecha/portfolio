@@ -3,6 +3,7 @@ import React from "react";
 export default function Project() {
   return (
     <div
+      id="projects-section"
       className=""
       style={{
         display: "block",
@@ -11,14 +12,18 @@ export default function Project() {
       <h2 className="p-4">Projects </h2>
 
       <div
-        className=""
+        className="sm:justify-content-center"
         style={{
           display: "flex",
+          flexWrap: "wrap",
         }}
       >
         {/* card start */}
         <div
-          className="card"
+          onClick={() => {
+            window.open("https://github.com/mohansinghmahecha/flashproject");
+          }}
+          className="card hover-it"
           style={{
             width: "18rem",
             margin: "10px",
@@ -38,7 +43,10 @@ export default function Project() {
 
         {/* card start */}
         <div
-          className="card"
+          onClick={() => {
+            window.open("https://github.com/mohansinghmahecha/cryto-project");
+          }}
+          className="card hover-it"
           style={{
             width: "18rem",
             margin: "10px",
@@ -47,6 +55,11 @@ export default function Project() {
         >
           <img
             className="card-img-top"
+            style={{
+              width: "206px",
+              height: "86px",
+              objectFit: "contain",
+            }}
             src="https://almablog-media.s3.ap-south-1.amazonaws.com/vectorstock_33585094_3efab21b73.png"
             alt="Card image cap"
           />

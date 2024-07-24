@@ -1,65 +1,77 @@
 import React from "react";
 import { Link } from "react-scroll";
+
 export default function Menu() {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg bg-secondary">
-        <div className="container-fluid">
-          <a className="navbar-brand"></a>
-
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item nav-link">
-                
-                <Link to="home">Home</Link>
-              </li>
-
-             
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <Link
-                    activeclassName="active"
-                    to="portfolio-section"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={100}
-                    classNameName="nav-link active"
-                  >
-                    Skills
-                  </Link>
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <Link
-                    activeclassName="active"
-                    to="about-section"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={100}
-                    classNameName="nav-link active"
-                  >
-                    About
-                  </Link>
-                </a>
-              </li>
-
-          
-
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <Link to="contect" >Contact</Link>
-                </a>
-              </li>
-
-              <li className="nav-item"></li>
-            </ul>
-          </div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <div className="container-fluid">
+        <a className="navbar-brand hover-i" href="#">
+          MohanPortfolio
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item hover-it">
+              <Link
+                to="projects-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={100}
+                className="nav-link"
+              >
+                project
+              </Link>
+            </li>
+            <li className="nav-item hover-it">
+              <Link
+                to="portfolio-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={100}
+                className="nav-link"
+              >
+                Skills
+              </Link>
+            </li>
+            <li className="nav-item hover-it">
+              <Link
+                to="about-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={100}
+                className="nav-link"
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item hover-it">
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={100}
+                className="nav-link"
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
