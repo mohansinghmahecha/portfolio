@@ -5,7 +5,10 @@ export default function Menu() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div className="container-fluid">
-        <a className="navbar-brand hover-i" href="#">
+        <a
+          className="navbar-brand hover-i"
+          href="portfolio-mohan-singh-mahechas-projects.vercel.app"
+        >
           MohanPortfolio
         </a>
         <button

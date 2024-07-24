@@ -33,7 +33,7 @@ export default function Project() {
           <img
             className="card-img-top"
             src="https://almablog-media.s3.ap-south-1.amazonaws.com/logo_a71333ba9fe4d72fc96d_4cf04d27de.png"
-            alt="Card image cap"
+            alt="Card flash"
           />
           <div className="card-body">
             <p className="card-text">Flash Card Project</p>
@@ -61,7 +61,7 @@ export default function Project() {
               objectFit: "contain",
             }}
             src="https://almablog-media.s3.ap-south-1.amazonaws.com/vectorstock_33585094_3efab21b73.png"
-            alt="Card image cap"
+            alt="Card cryptocurrency cap"
           />
           <div className="card-body">
             <p className="card-text">
@@ -84,7 +84,7 @@ export default function Project() {
           <img
             className="card-img-top"
             src="https://almablog-media.s3.ap-south-1.amazonaws.com/Logo_of_You_Tube_2015_2017_svg_ef2bc4f282.png"
-            alt="Card image cap"
+            alt="Card of youtube cap"
           />
           <div className="card-body">
             <p className="card-text">YouTube Backend Project</p>
